@@ -26,4 +26,4 @@ This is a starter template for deploying a data science web application using Fa
 1. Build image (after training and model.joblib exists):
    docker build -t ds-app ./backend
 2. Run with docker-compose:
-   docker-compose up --bui
+   docker-compose up --build
