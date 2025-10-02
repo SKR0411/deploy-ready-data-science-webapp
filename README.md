@@ -19,11 +19,11 @@ This is a starter template for deploying a data science web application using Fa
    cd backend
    uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 
-4. Open http://localhost:8000
+4. Open http://localhost:800
 
-## Docker
+## Docke
 
 1. Build image (after training and model.joblib exists):
    docker build -t ds-app ./backend
 2. Run with docker-compose:
-   docker-compose up --build
+   docker-compose up --buil 
